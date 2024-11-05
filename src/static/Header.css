@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: rgb(27,27,27);
+    height: 70px;
+    width: 80%;
+    margin: auto;
+    color: rgb(94, 92, 92);
+    font-size: 20px;
+}
+
+.socials{
+    display: flex;
+    gap: 20px;
+}   
+
+nav:hover{
+    color: rgb(196, 152, 152);
+}
+
+
+@media (max-width:750px){
+    .socials{
+        display: none;
+    }
+
+    .header{
+        display: none;
+    }
+}

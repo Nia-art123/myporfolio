@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textSide{
+    color: white;
+    /* border: 2px solid red; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2{
+        font-size: 60px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+}
+
+.myImage img{
+    width: 200px;
+}
+
+.button {
+    background-color: #007BFF; 
+    color: white;             
+    border: none;              
+    border-radius: 5px;       
+    padding: 10px 20px;       
+    font-size: 16px;          
+    cursor: pointer;          
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);    
+}
+
+.button:active {
+    transform: scale(0.95);    
+}
+
+
+@media (max-width:750px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
